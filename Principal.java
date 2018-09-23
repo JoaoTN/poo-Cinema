@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Principal{
 	public static Scanner x = new Scanner(System.in);
 	public static void main(String args[]){
-		int tam = 5;
+		int tam = 0;
 		int aux = 0;
 		String aux2, aux3, opcao = "";
 		System.out.println("Digite o tamanho da sala!");
