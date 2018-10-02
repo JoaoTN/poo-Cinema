@@ -6,6 +6,12 @@ public class Sala{
 			this.cadeiras[i] = sub;
 		}
 	}
+	public Cliente[] getCadeiras(){
+		return this.cadeiras;
+	}
+	public void setCadeiras(){
+		this.cadeiras = cadeiras;
+	}
 	public 	boolean reservar(Cliente sub, int indice){
 		if(this.cadeiras[indice].getId().equals("")){
 			this.cadeiras[indice] = sub;
