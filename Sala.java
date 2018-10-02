@@ -9,7 +9,7 @@ public class Sala{
 	public Cliente[] getCadeiras(){
 		return this.cadeiras;
 	}
-	public void setCadeiras(){
+	public void setCadeiras(Cliente[] cadeiras){
 		this.cadeiras = cadeiras;
 	}
 	public 	boolean reservar(Cliente sub, int indice){
