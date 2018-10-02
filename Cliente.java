@@ -17,4 +17,9 @@ public class Cliente{
 	public void setFone(String fone){
 		this.fone = fone;
 	}
+	public String toString(){
+		String str = "";
+		str += this.id + " " + this.fone + " ";
+		return str;
+	}
 }
